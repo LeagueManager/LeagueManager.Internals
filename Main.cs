@@ -9,5 +9,6 @@ namespace LeagueManager.Internals
         public Utils.MemoryProgram _memoryProgram = new Utils.MemoryProgram();
         public Internals.LoadJSON _loadJson = new LoadJSON();
         public Dictionary<string,Utils.Team> _teams = new Dictionary<string, Utils.Team>();
+        public Utils.User _user = new Utils.User();
     }
 }
